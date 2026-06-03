@@ -77,6 +77,7 @@ currently_pursuing:
   <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" />
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
   <img src="https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white" />
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" />
 </p>
 
 #### ⚙️ DevOps & CI/CD
@@ -100,6 +101,15 @@ currently_pursuing:
   <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
   <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
   <img src="https://img.shields.io/badge/Kibana-005571?style=for-the-badge&logo=kibana&logoColor=white" />
+</p>
+
+#### 🤖 Machine Learning & Data
+<p align="left">
+  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/NLTK-154F5B?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/TF--IDF%20%7C%20SVD%20%7C%20FunkSVD-FF6F00?style=for-the-badge&logo=python&logoColor=white" />
 </p>
 
 #### 💻 Operating Systems & Networking
@@ -126,6 +136,7 @@ currently_pursuing:
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
 </p>
@@ -144,13 +155,39 @@ currently_pursuing:
 <table>
   <tr>
     <td width="50%" valign="top">
+      <h4>📚 SynthBook — Intelligent Book Recommendation System</h4>
+      <p>Full-stack ML-powered book recommendation platform combining Collaborative Filtering (SVD/FunkSVD), Content-Based Filtering (TF-IDF + Cosine Similarity), and an IMDB-style weighted rating formula. Embedding Matrix approach uncovers hidden patterns between books; personalized recommendations require users to rate at least 5 books.</p>
+      <p>
+        <a href="https://synthbook.onrender.com/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-46E3B7?style=flat-square&logo=render&logoColor=black" /></a>
+        <a href="https://github.com/Rabin-Mishra" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
+      </p>
+      <p><strong>Stack:</strong> Django · Python · Scikit-learn · Surprise · NLTK · Pandas · NumPy · TF-IDF · FunkSVD · SQLite · Render</p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🛒 GrocerEase — Full-Stack Grocery eCommerce Platform</h4>
+      <p>Rebuilt a vulnerable PHP/MySQL codebase into a secure Laravel 13 MVC app. Resolved SQL injection vulnerabilities, IP-spoofable cart sessions, and an unauthenticated admin panel. Implemented atomic DB transactions and integrated eSewa & Khalti payment gateways with server-side HMAC verification.</p>
+      <p>
+        <a href="https://grocerease.up.railway.app/" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-0B0D0E?style=flat-square&logo=railway&logoColor=white" /></a>
+        <a href="https://github.com/Rabin-Mishra" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
+      </p>
+      <p><strong>Stack:</strong> Laravel 13 · PHP 8.3 · PostgreSQL (Neon) · Bootstrap 5 · eSewa API · Khalti API · Railway · GitHub Actions</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h4>⚙️ CI/CD Pipeline — Jenkins + AWS EC2 (Next.js)</h4>
       <p>Automated deployment pipeline triggered on every merge to <code>main</code>, deploying a Next.js app to a secured AWS EC2 instance via GitHub Webhooks, Nginx reverse proxy, and SSH key auth.</p>
+      <p>
+        <a href="https://github.com/Rabin-Mishra" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
+      </p>
       <p><strong>Stack:</strong> Jenkins · AWS EC2 · GitHub Webhooks · Next.js · Nginx · Ubuntu</p>
     </td>
     <td width="50%" valign="top">
       <h4>⚙️ CI/CD Pipeline — Jenkins + Azure (NestJS)</h4>
       <p>Full pipeline-as-code (Jenkinsfile) for a NestJS app: test → build → deploy on every push, with automated email notifications on build success/failure.</p>
+      <p>
+        <a href="https://github.com/Rabin-Mishra" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
+      </p>
       <p><strong>Stack:</strong> Jenkins · Azure · GitHub Webhooks · NestJS · Node.js</p>
     </td>
   </tr>
@@ -158,25 +195,31 @@ currently_pursuing:
     <td width="50%" valign="top">
       <h4>🌐 Personal Portfolio — Full-Stack DevOps Showcase</h4>
       <p>Production-grade portfolio at <a href="https://rabinmishra.com.np">rabinmishra.com.np</a> with multi-stage Docker setup, Nginx reverse proxy, and a full GitHub Actions CI/CD pipeline (lint → build → Vercel deploy).</p>
+      <p>
+        <a href="https://rabinmishra.com.np" target="_blank"><img src="https://img.shields.io/badge/Live_Demo-000000?style=flat-square&logo=vercel&logoColor=white" /></a>
+        <a href="https://github.com/Rabin-Mishra" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
+      </p>
       <p><strong>Stack:</strong> Next.js 15 · TypeScript · Sanity CMS · Docker · GitHub Actions · Vercel · Cloudflare</p>
     </td>
     <td width="50%" valign="top">
-      <h4>🛒 GrocerEase — eCommerce Platform</h4>
-      <p>Rebuilt a vulnerable PHP/MySQL codebase into a secure Laravel 13 MVC app with atomic DB transactions, eSewa & Khalti payment gateways (HMAC verification), and Railway deployment via GitHub Actions.</p>
-      <p><strong>Stack:</strong> Laravel 13 · PHP 8.3 · PostgreSQL (Neon) · Railway · GitHub Actions</p>
+      <h4>🔌 Self-Hosted Homelab via Cloudflare Tunnels</h4>
+      <p>Deployed production-grade services (WordPress, phpMyAdmin, Kibana) on Ansible-provisioned AWS EC2 instances, exposed securely via Cloudflare Tunnels with zero open inbound ports. Configured full email stack: SPF, DKIM, DMARC via Zoho Mail.</p>
+      <p>
+        <a href="https://github.com/Rabin-Mishra" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
+      </p>
+      <p><strong>Stack:</strong> Ansible · AWS EC2 · Cloudflare Tunnels · Nginx · WordPress</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>🔌 Self-Hosted Homelab via Cloudflare Tunnels</h4>
-      <p>Deployed production-grade services (WordPress, phpMyAdmin, Kibana) on Ansible-provisioned AWS EC2 instances, exposed securely via Cloudflare Tunnels with zero open inbound ports. Configured full email stack: SPF, DKIM, DMARC via Zoho Mail.</p>
-      <p><strong>Stack:</strong> Ansible · AWS EC2 · Cloudflare Tunnels · Nginx · WordPress</p>
-    </td>
-    <td width="50%" valign="top">
       <h4>🔗 TCP/IP Socket Programming in C</h4>
       <p>Client-server applications using POSIX sockets on Linux and Winsock API on Windows — covering socket creation, binding, listening, and cross-platform error management, with detailed PDF & Markdown documentation.</p>
+      <p>
+        <a href="https://github.com/Rabin-Mishra" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
+      </p>
       <p><strong>Stack:</strong> C · POSIX Sockets · Winsock · Linux · Windows</p>
     </td>
+    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
